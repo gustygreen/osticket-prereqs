@@ -39,23 +39,25 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-![image](https://github.com/user-attachments/assets/ef8d2133-4b21-4965-85c1-5b7b7851bb12)
+<img src="https://github.com/user-attachments/assets/ef8d2133-4b21-4965-85c1-5b7b7851bb12" width="500">
 </p>
+
+
 <p>
 <p>
-![image](https://github.com/user-attachments/assets/8de9d327-9a98-4245-945b-a3eb73b0cd01)
+<img src="https://github.com/user-attachments/assets/8de9d327-9a98-4245-945b-a3eb73b0cd01">
 </p>
 <p>
   
 3.) Once you have connected to your virtual machine you will want to go to your control panel. From the control panel open up programs. Select, Turn Windows features on and off.
 
 <p>
-<img src="https://imgur.com/fGXMpx4.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/ec208a64-a25c-4e99-88fc-233e56616690" width="500">
 </p>
 <p>
   
 <p>
-<img src="https://imgur.com/LBGkAw6.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/b142fc12-9b05-443b-9b29-5ad00a77e42c" width="500">
 </p>
 <p>
   
@@ -65,12 +67,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 [X] Common HTTP Features
   
 <p>
-<img src="https://imgur.com/LQjw9le.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/fcb8410e-be29-4b25-aba7-432e5f655e39" height="40%" width="40%"/>
 </p>
 <p>
   
 <p>
-<img src="https://imgur.com/pbPeHb1.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/8c1daf74-283c-49fb-8cf2-aeede30ed6e0" height="40%" width="40%"/>
 </p>
 <p>
   
@@ -96,19 +98,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   
 8.) From the Installation Files, download PHP 7.3.8 (php-7.3.88-nts-Win32-VC15-x866.zip) and unzip the contents into C:\PHP
   
-  !! ATTENTION !!
-If this appears, choose to “Keep” the file:
-  
-<p>
-<img src="https://imgur.com/xZv1Yhw.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-  
-<p>
-<img src="https://imgur.com/YwBhqo0.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
 9.) Once you have downloaded and extracted the zip file into the PHP folder on the C drive, download and install the VC_redist.x86.exe from the installation files. Go through the setup wizard to finish setting up and installing the VC_redist.x86.exe. 
   
 10.) Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
@@ -135,7 +124,7 @@ Standard Configuration ->
   The program should look like this.
   
 <p>
-<img src="https://imgur.com/rgdZwmM.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/74694c8c-8da8-40c0-a0be-eb1e29de9c11" height="40%" width="40%" />
 </p>
 <p>
   
@@ -150,7 +139,7 @@ Standard Configuration ->
 Register new PHP version.
   
 <p>
-<img src="https://imgur.com/qdbn5zQ.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/c688519b-ba46-4c37-917f-8ce5a8901a37" height="40%" width="40%"/>
 </p>
 <p>
   
@@ -187,7 +176,7 @@ You will want to provide a path to the php executable file (php-cgi.exe)).
   Some extensions are not enabled on the osTicket browser.
   
 <p>
-<img src="https://imgur.com/eJIsGTn.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/10631282-74af-4dd0-a562-5fa5975963e5" height="40%" width="40%"/>
 </p>
 <p>
   
@@ -197,7 +186,7 @@ You will want to provide a path to the php executable file (php-cgi.exe)).
   -Click "Enable or disable an extension"
   
 <p>
-<img src="https://imgur.com/vvTLNBH.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/ba83ac6b-9e22-4790-8ce4-5ff4d1e8b6a6" height="40%" width="40%"/>
 </p>
 <p>
   
@@ -215,13 +204,13 @@ You will want to provide a path to the php executable file (php-cgi.exe)).
   3.) php_opcache.dll
   
 <p>
-<img src="https://imgur.com/cOem7Nb.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/319b34d9-078e-4f73-bb55-705d9d90c166" height="40%" width="40%"/>
 </p>
 <p>
   
   
 15.) Once we have those extensions enabled in IIS, we are going to want to rename one of the files in our osTicket folder.
-  Go into the file explorer and search for C;\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+  Go into the file explorer and search for C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
   
   We are going to rename the ost-sampleconfig.php to ost-config.php
   
@@ -234,14 +223,14 @@ You will want to provide a path to the php executable file (php-cgi.exe)).
   Click Add
   
 <p>
-<img src="https://imgur.com/VPZvOdo.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/db421626-bfe7-45e7-ad02-c7b08ccba643" height="40%" width="40%"/>
 </p>
 <p>
   
 Select a principal
   
 <p>
-<img src="https://imgur.com/PoGk34d.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/79077b0a-45a8-4619-b7dc-8ae0f5f2332d" height="40%" width="40%"/>
 </p>
 <p>
   
@@ -253,7 +242,7 @@ Select a principal
 </p>
 <p>
   
-  Make sure Full Control and all the other boxes are checked.
+  Make sure Full Control and all the other boxes are checked. Click OK.
   
 <p>
 <img src="https://imgur.com/rbbGqwB.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
