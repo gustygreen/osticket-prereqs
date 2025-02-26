@@ -273,14 +273,14 @@ Select a principal
 </p>
 <p>
   
-  We want to make sure the username is root and the password is Password1.
+  We want to make sure the username is root and the password is root.
   
 <p>
-<img src="https://imgur.com/LEAZNOc.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/c7e0d4cb-aecd-4e18-8538-3871a1530dc2" height="40%" width="40%"/>
 </p>
 <p>
   
-  Once we are connected to the session we will go back to the browser to finish setting everything up. Under the Database Settings in the browser the username will be root and the password will be Password1.
+  Once we are connected to the session we will go back to the browser to finish setting everything up. Under the Database Settings in the browser the username will be root and the password will be root.
   
   We will now create a new database within HeidiSQL. In Heidi right click on the left side where is says "Unnamed", select "create new", and then select "database". Name the new database osTicket. Once we have the new database setup go back to the osTicket browser and under MySQL Database type in osTicket.
   
@@ -288,27 +288,11 @@ Select a principal
 <img src="https://imgur.com/0rG1AJm.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  
-  The last step is to do some clean up. We will want to delete the setup folder in our system. 
-  -Delete: C:\inetpub\wwwroot\osTicket\setup
-  Only delete the setup folder and nothing else.
-  
-  We then will want to set the permissions back to "Read" only in the ost-config.php file.
-  
-<p>
-<img src="https://imgur.com/wFr0pkK.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-  
-<p>
-<img src="https://imgur.com/jsJOPyn.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-  
+ 
   The last step after that is to login to osTicket on the browser.
   
 <p>
-<img src="https://imgur.com/uHVdDsx.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/c65cc7e0-71c5-40df-b581-8975df49340d" width="500"/>
 </p>
 <p>
   
